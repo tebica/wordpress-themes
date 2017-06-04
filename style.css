@@ -24,9 +24,14 @@ body .site{
 	margin-bottom:0;
 
 }
+.wrap{
+	padding-left:1.2em;
+	padding-right:1.2em;
+}
 .hentry{
-	font-size:1.2em;
-	font-size:14pt;
+	text-align: justify;
+	word-wrap: break-word;
+	font-size:18px;
 	line-height:1.6em;
 }
 ul li, ol li{
