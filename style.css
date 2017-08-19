@@ -13,7 +13,7 @@ Version:        0.1.0
 body {
 	color:#111;
 	font-size:15px;
-	word-break:keep-all; overflow-wrap:break-all; /* avoid a word break in Korean words  */
+	/*word-break:keep-all; overflow-wrap:break-all;*/ /* avoid a word break in Korean words  */
 }
 /*body .entry-content, body .entry-summary, body .entry-title{ */
 body * { 
@@ -44,7 +44,7 @@ ul li, ol li{
 }
 
 .entry-header .entry-title {
-	font-weight:bold;
+	font-weight:bold !important;
 }
 
 h1.entry-title a{
@@ -52,10 +52,15 @@ h1.entry-title a{
 	font-size:22px;
 }
 
-.entry-content a{
+.entry-content a, .entry-content a:hover{
 	color:#c9242a;
+	border-bottom: 2px dotted #c9242a;
 	text-decoration:none;
-	border-bottom: 1px dotted #c9242a;
+	box-shadow:none;
+}
+.entry-content a:hover{
+	background: #efd1db;
+	border-bottom: 2px dotted #c9242a;
 }
 
 .entry-content blockquote, .comment-content blockquote{
