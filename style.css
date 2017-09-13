@@ -22,7 +22,6 @@ body * {
 body .site{
 	margin-top:0;
 	margin-bottom:0;
-
 }
 .wrap{
 	padding-left:1.2em;
@@ -33,6 +32,9 @@ body .site{
 	word-wrap: break-word;
 	font-size:18px;
 	line-height:1.6em;
+}
+ul, ol{
+	padding-left:20px;
 }
 ul li, ol li{
 	line-height:1.4em;
@@ -92,6 +94,4 @@ h1.entry-title a{
 	body.page-two-column:not(.archive) #primary .entry-content{
 		width:80%;
 	}
-
-
 }
