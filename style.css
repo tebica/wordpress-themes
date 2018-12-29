@@ -33,27 +33,48 @@ body .site{
 	font-size:18px;
 	line-height:1.6em;
 }
-ul, ol{
+.content-area ul, .content-area ol{
 	padding-left:20px;
 }
-ul li, ol li{
+.content-area ul li, .content-area ol li{
 	line-height:1.4em;
 	padding-bottom:8px;
 }
 .site-title a{
-	font-family: "Courier New";
 	margin-bottom:40px;
+	font-family: "Avenir-Black", "Arial Black", Arial;
+	letter-spacing: 0px;
+	font-size: 50px;
+	opacity: 0.5;
+	text-transform: none;
 }
-
+.site-header{
+	background-color: #fff;
+}
+.site-content{
+	padding-top:2.5em;
+}
+.navigation-top{
+	background-color: #f0f0f0;
+}
+.navigation-top .wrap {
+	padding:0;
+}
+.page-header {
+	padding-bottom:0.5em;	
+}
 .entry-header .entry-title {
 	font-weight:bold !important;
+	font-size: 2.5rem;
 }
 
 h1.entry-title a{
 	color:#8A0808;
 	font-size:22px;
 }
-
+h2, h3{
+	color: #000;
+}
 .entry-content a, .entry-content a:hover{
 	color:#c9242a;
 	border-bottom: 2px dotted #c9242a;
