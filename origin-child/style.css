@@ -1,0 +1,76 @@
+/*
+Theme Name:     Origin Child
+Theme URI:      http://earlybird.kr/
+Description:    Child theme for the Origin theme 
+Author:         tebica
+Author URI:     http://earlybird.kr/about/
+Template:       origin
+Version:        0.1.0
+*/
+
+@import url("../origin/style.css");
+
+body {
+	color:#111;
+	font-size:15px;
+	word-break:keep-all; overflow-wrap:break-all; /* avoid a word break in Korean words  */
+}
+/*body .entry-content, body .entry-summary, body .entry-title{ */
+body * { 
+	font-family: "Apple SD Gothic Neo", "Malgun Gothic", Dotum, Helvetica, Arial, sans-serif;
+}
+body .site{
+	margin-top:0;
+	margin-bottom:0;
+
+}
+.hentry{
+	font-size:1.2em;
+	font-size:12pt;
+	line-height:1.6em;
+}
+ul li, ol li{
+	line-height:1.4em;
+	padding-bottom:8px;
+}
+h1#site-title{
+	font-family: "Courier New";
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:bold;
+	font-size:56px;
+	color:#111;
+	text-shadow: 2px 2px 0px #BBB; */
+	margin-bottom:40px;
+}
+#branding {
+/*	width: 45%;*/
+}
+.entry-header .entry-title {
+	font-weight:bold;
+}
+
+h1.entry-title a{
+	color:#8A0808;
+	font-size:22px;
+}
+
+.entry-content a{
+	color:#c9242a;
+	text-decoration:none;
+	border-bottom: 1px dotted #c9242a;
+}
+
+.entry-content blockquote, .comment-content blockquote{
+	font-style: normal;
+	color: #999;
+}
+
+.byline{
+	margin:0 0 0.2em 0;
+}
+
+@media only screen and (max-width: 767px){
+.wrap {
+    max-width: 340px;
+}
+}
