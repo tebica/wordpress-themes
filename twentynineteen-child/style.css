@@ -12,8 +12,6 @@ Text Domain: twentynineteen-child
 */
 
 body {
-        color:#000;
-        letter-spacing: -0.025em;
         font-family: 'AppleSDGothicNeo-Light','Apple SD Gothic Neo','맑은 고딕', Malgun Gothic,
                      '돋움', Dotum, Helvetica, AppleGothic, Arial !important; 
         /*word-break:keep-all; overflow-wrap:break-all;*/ /* avoid a word break in Korean words  */
@@ -24,16 +22,36 @@ body, .hentry{
         font-size:1em;
         line-height:1.7em;
 }
+.site-title a{
+        font-family: "courier new", "Arial Black", Arial;
+        font-size: 1.8em;
+        font-weight: bold;
+        opacity: 0.8;
+}
+
 h1{ font-size: 2.25em}
-h2{ font-size: 1.7em}
+h2{ font-size: 1.6em}
 h1, h2, h3, h4, h5, h6{
   word-break: keep-all;
 }
+h2:before {
+  display:none; /* remove uppper line above H2 */
+}
 
+.entry-footer > span.byline{
+  display: none;
+}
+
+@media only screen and (min-width: 48em) {
+  .entry .entry-content > *{
+    max-width: calc(8 * (100vw / 12) - 28px);
+  }
+}
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 .hentry {
   font-size:0.73em;
+  letter-spacing: -0.025em;
 }
 
 }
