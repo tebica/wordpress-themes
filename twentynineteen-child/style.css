@@ -1,0 +1,36 @@
+/*
+Theme Name: Twenty Nineteen Child
+Theme URI: https://en-gb.wordpress.org/themes/twentynineteen/
+Author: ChildThemeWP.com
+Author URI: https://childthemewp.com
+Description: My WordPress Twenty Nineteen child theme.
+Template: twentynineteen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.0
+Text Domain: twentynineteen-child
+*/
+
+body {
+        color:#000;
+        letter-spacing: -0.025em;
+        font-family: 'AppleSDGothicNeo-Light','Apple SD Gothic Neo','맑은 고딕', Malgun Gothic,
+                     '돋움', Dotum, Helvetica, AppleGothic, Arial !important; 
+        /*word-break:keep-all; overflow-wrap:break-all;*/ /* avoid a word break in Korean words  */
+}
+
+body, .hentry{
+        word-wrap: break-word;
+        font-size:1em;
+        line-height:1.7em;
+}
+h1{ font-size: 2.25em}
+h2{ font-size: 1.7em}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+.hentry {
+  font-size:0.73em;
+}
+
+}

@@ -1,0 +1,95 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+body {
+        color:#000;
+        font-size:16px;
+        letter-spacing: -0.025em;
+        font-family: 'AppleSDGothicNeo-Light','Apple SD Gothic Neo','맑은 고딕', Malgun Gothic, '돋움', Dotum, Helvetica, AppleGothic, Arial !important; 
+        /*word-break:keep-all; overflow-wrap:break-all;*/ /* avoid a word break in Korean words  */
+}
+/*body .entry-content, body .entry-summary, body .entry-title{ */
+/*body  {
+
+}*/
+ul.menu > li + li, .widget > ul > li + li{
+  border:0;
+}
+.button.is-outline{
+  border: 2px solid #aaa;
+}
+.article-inner{
+  border-bottom: 2px solid #ececec;
+}
+.article-inner footer{
+  display:none;
+}
+.is-xsmall, .is-xsmall a {
+    font-size: 1em;
+    color:#888;
+}
+.posted-on{
+  margin-right:5px
+}
+.entry-header-text{
+  padding:0;
+}
+.entry-content{
+  padding-top:0;
+}
+h1, h2, h3, h4, h5, h6{
+  color:#000;
+  margin-top: .6em;
+  word-break: keep-all;
+}
+
+li{
+  margin-bottom: .4em;
+}
+ul ul, ul ol, ol ol, ol ul{
+  margin:0;
+}
+.hentry{
+        word-wrap: break-word;
+        font-size:16px;
+        line-height:1.7em;
+}
+.EnlighterJS span{
+        font-size: 16px;
+}
+
+.entry-content a, .entry-content a:hover{
+	color:#c9242a;
+	border-bottom: 2px dotted #c9242a;
+	text-decoration:none;
+	box-shadow:none;
+}
+.entry-content a:hover{
+  background-color: #FFDBE9;
+}
+.nav li{
+  line-height: 40px;
+  font-size: 20px;
+}
+.nav > li.html_topbar_left{
+  font-family: "Avenir-Black", "Arial Black", Arial;
+  color:#555;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 26px;
+}
+.logo-left .logo{
+  margin-right:10px;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
