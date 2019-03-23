@@ -55,10 +55,7 @@ h2:before {
 .widget_search .search-field {
   width:60%;
 }
-.hentry {
-  font-size:0.73em;
-  letter-spacing: -0.025em;
-}
+
 
 .entry{
   margin-top:0;
@@ -78,6 +75,8 @@ h2:before {
 }
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
-
-
+  .hentry {
+    font-size:0.73em;
+    letter-spacing: -0.025em;
+  }
 }
