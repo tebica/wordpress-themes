@@ -19,7 +19,7 @@ body {
 
 body, .hentry{
         word-wrap: break-word;
-        font-size:1em;
+        font-size:0.9em;
         line-height:1.7em;
 }
 .site-title a{
@@ -28,7 +28,9 @@ body, .hentry{
         font-weight: bold;
         opacity: 0.8;
 }
-
+.site-header{
+  padding: 1rem;
+}
 h1{ font-size: 2.25em}
 h2{ font-size: 1.6em}
 h1, h2, h3, h4, h5, h6{
@@ -38,6 +40,33 @@ h2:before {
   display:none; /* remove uppper line above H2 */
 }
 
+.widget_categories ul li,
+.widget_meta ul li,
+.widget_nav_menu ul li,
+.widget_pages ul li,
+.widget_recent_comments ul li,
+.widget_recent_entries ul li,
+.widget_rss ul li {
+  font-size:1em;
+}
+.widget_search .search-submit {
+  display: inline;
+}
+.widget_search .search-field {
+  width:60%;
+}
+.hentry {
+  font-size:0.73em;
+  letter-spacing: -0.025em;
+}
+
+.entry{
+  margin-top:0;
+}
+.entry .entry-footer{
+  margin-top:0;
+  margin-bottom:0;
+}
 .entry-footer > span.byline{
   display: none;
 }
@@ -49,9 +78,6 @@ h2:before {
 }
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
-.hentry {
-  font-size:0.73em;
-  letter-spacing: -0.025em;
-}
+
 
 }
