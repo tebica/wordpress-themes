@@ -76,7 +76,7 @@ h2:before {
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
   .hentry {
-    font-size:0.73em;
+    font-size:0.8em;
     letter-spacing: -0.025em;
   }
 }
