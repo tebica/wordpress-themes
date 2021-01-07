@@ -1,0 +1,91 @@
+/**
+Theme Name: astra-child
+Author: Minwoo Park
+Author URI: https://earlybird.kr/about/
+Description: Wordpress child theme for Korean
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+
+body {
+        /*word-break:keep-all; overflow-wrap:break-all;*/ /* avoid a word break in Korean words  */
+}
+
+#content .comment-respond{
+	padding: 0em 2em 2em 2em;
+}
+#content .comments-area, #content .comment-textarea{
+	margin-bottom:0;
+}
+.site-title a{
+        font-family: "courier new", "Arial Black", Arial;
+        font-size: 1.2em;
+        font-weight: bold;
+        opacity: 0.9;
+}
+
+h1, h2, h3, h4, h5, h6{
+  word-break: keep-all;
+}
+.entry-title, .entry-title a{
+  font-weight:500;
+}
+ol, ul {
+    margin-left: 2em;
+}
+
+.entry-content a, .entry-content a:hover{
+	color:#c9242a;
+	border-bottom: 2px dotted #c9242a;
+	text-decoration:none;
+	box-shadow:none;
+}
+/* margin for read-more */
+.entry-content p {
+  margin-bottom: 0.8em; 
+}
+.read-more a{
+  border:0;
+}
+
+.widget_tag_cloud .tagcloud a {
+  border: 0;
+  padding: .3em .5em;
+}
+#content .post-navigation{
+	padding:1em;
+}
+
+/*************** Desktop ONLY CSS  ***************/
+@media only screen and (min-width: 48em) {
+	#content .hentry{
+/*
+        word-wrap: break-word;
+        font-size:16px;
+        line-height:1.7em;
+*/
+	padding: 0.5em 2em 1.5em 2em;
+	}
+}
+/*************** Mobile ONLY CSS  ***************/
+@media only screen and (max-width: 48em) {
+  .site-title a{
+    font-size: 0.8em;
+  }
+  .entry-content p {
+    margin-bottom: 0.4em;
+  }
+  .entry-title {
+      font-size: 1.9rem;
+  }
+  body .hentry {
+/*
+    font-size:0.8em;
+*/
+    letter-spacing: -0.025em;
+  }
+}
