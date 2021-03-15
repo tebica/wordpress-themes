@@ -32,34 +32,42 @@ h1, h2, h3, h4, h5, h6{
   word-break: keep-all;
 }
 .entry-title, .entry-title a{
-  font-weight:500;
+  font-weight:600;
 }
 ol, ul {
     margin-left: 2em;
 }
-
+/*
 .entry-content a, .entry-content a:hover{
 	color:#c9242a;
-	border-bottom: 2px dotted #c9242a;
 	text-decoration:none;
 	box-shadow:none;
 }
+*/
+.entry-content a:hover{
+  border-bottom: 2px dotted #c9242a;
+}
+
+
 /* margin for read-more */
 .entry-content p {
   margin-bottom: 0.8em; 
 }
-.read-more a{
-  border:0;
-}
+
 
 .widget_tag_cloud .tagcloud a {
   border: 0;
-  padding: .3em .5em;
+  padding: .3em;
 }
 #content .post-navigation{
 	padding:1em;
 }
-
+.entry-meta, .entry-meta *{
+  color: #9b9b9b;
+}
+.entry-title {
+    margin-bottom: 0;
+}
 /*************** Desktop ONLY CSS  ***************/
 @media only screen and (min-width: 48em) {
 	#content .hentry{
@@ -70,6 +78,9 @@ ol, ul {
 */
 	padding: 0.5em 2em 1.5em 2em;
 	}
+  .site-branding{
+    padding-left: 2em;
+  }
 }
 /*************** Mobile ONLY CSS  ***************/
 @media only screen and (max-width: 48em) {
